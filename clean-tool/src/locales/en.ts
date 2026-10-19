@@ -12,6 +12,8 @@ export const en = {
   title: "Clean this phone",
   demoBadge: "Demo phone · simulated",
   languageMenuLabel: "Language",
+  pilotNotice: "Pilot version: the removal lists haven't been tested on real phones yet. Only use this on a phone that can be factory-reset if something goes wrong.",
+  reportProblem: "Report a problem",
   steps: ["Connect", "Check", "Apps", "Battery", "Finish"],
   unknown: "unknown",
 

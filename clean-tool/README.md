@@ -2,6 +2,8 @@
 
 A web page that removes bloatware from old Android phones over USB, without unlocking or rooting them. It's step 2 of [PLAN.md](../PLAN.md).
 
+**Live version:** https://bantini.github.io/second-ring/ (published from `main` by `.github/workflows/pages.yml`).
+
 ## Run it
 
 ```bash

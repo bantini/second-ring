@@ -96,6 +96,20 @@ select.lang {
   cursor: pointer;
 }
 
+.pilot {
+  margin: 8px 0 12px;
+  padding: 10px 14px;
+  font-size: 0.9rem;
+  background: var(--warn-bg);
+  border: 1px solid var(--warn-border);
+  border-radius: 8px;
+}
+
+.pilot a {
+  color: inherit;
+  font-weight: 600;
+}
+
 h1 {
   font-size: 1.5rem;
   margin: 8px 0;

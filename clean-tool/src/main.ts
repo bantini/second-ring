@@ -346,6 +346,8 @@ window.addEventListener("beforeunload", (event) => {
 
 // ---- Rendering ----
 
+const ISSUES_URL = "https://github.com/bantini/second-ring/issues";
+
 function render(s: State): string {
   return `
     <header class="top">
@@ -360,6 +362,7 @@ function render(s: State): string {
         </select>
       </div>
     </header>
+    <p class="pilot" role="note">${esc(t.pilotNotice)} <a href="${ISSUES_URL}" target="_blank" rel="noopener">${esc(t.reportProblem)}</a></p>
     ${renderSteps(s)}
     ${s.error ? `<div class="alert error" role="alert">${esc(s.error(t))}</div>` : ""}
     ${s.notice ? `<div class="alert ok" role="status">${esc(s.notice(t))}</div>` : ""}

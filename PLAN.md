@@ -1,4 +1,4 @@
-# Plan: a second life for discarded Android phones
+# SecondRing: a second life for discarded Android phones
 
 _Draft · updated 2026-10-19 · India_
 
