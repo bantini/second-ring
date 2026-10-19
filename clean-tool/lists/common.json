@@ -1,0 +1,28 @@
+{
+  "id": "common",
+  "version": 1,
+  "name": "Apps preinstalled on many brands",
+  "status": "untested",
+  "testedOn": [],
+  "brands": ["*"],
+  "packages": [
+    { "id": "com.facebook.appmanager", "label": "Facebook App Manager", "why": "Installs and updates Facebook apps in the background" },
+    { "id": "com.facebook.services", "label": "Facebook Services", "why": "Runs in the background even if Facebook is never used" },
+    { "id": "com.facebook.system", "label": "Facebook App Installer", "why": "Lets Facebook install apps; not needed" },
+    { "id": "com.facebook.katana", "label": "Facebook", "why": "Heavy app; Facebook also works in the browser" },
+    { "id": "com.netflix.partner.activation", "label": "Netflix activation", "why": "Partner deal service; runs in the background" },
+    { "id": "com.netflix.mediaclient", "label": "Netflix", "why": "Preinstalled trial app" },
+    { "id": "in.amazon.mShop.android.shopping", "label": "Amazon Shopping", "why": "Preinstalled shopping app; sends notifications" },
+    { "id": "com.eterno", "label": "Dailyhunt", "why": "Preinstalled news app; sends notifications" },
+    { "id": "com.eterno.shortvideos", "label": "Josh", "why": "Preinstalled short-video app; uses a lot of data" },
+    { "id": "in.mohalla.sharechat", "label": "ShareChat", "why": "Preinstalled social app; uses a lot of data" },
+    { "id": "in.mohalla.video", "label": "Moj", "why": "Preinstalled short-video app; uses a lot of data" },
+    { "id": "com.glance.internet", "label": "Glance", "why": "Lock-screen content and ads over mobile data" },
+    { "id": "com.linkedin.android", "label": "LinkedIn", "why": "Preinstalled; not needed" },
+    { "id": "com.microsoft.skydrive", "label": "OneDrive", "why": "Preinstalled cloud storage; syncs in the background" },
+    { "id": "com.google.android.videos", "label": "Google TV", "why": "Movie store; not needed" },
+    { "id": "com.google.android.apps.subscriptions.red", "label": "Google One", "why": "Paid storage plans; not needed" },
+    { "id": "com.google.android.apps.podcasts", "label": "Google Podcasts", "why": "Discontinued by Google" },
+    { "id": "com.google.android.apps.magazines", "label": "Google News", "why": "Sends notifications; news works in the browser" }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "xiaomi",
+  "version": 1,
+  "name": "Xiaomi, Redmi and Poco (MIUI)",
+  "status": "untested",
+  "testedOn": [],
+  "brands": ["xiaomi", "redmi", "poco"],
+  "packages": [
+    { "id": "com.miui.msa.global", "label": "MIUI system ads", "why": "Shows ads inside Xiaomi's own apps" },
+    { "id": "com.miui.analytics", "label": "MIUI analytics", "why": "Sends usage data to Xiaomi in the background" },
+    { "id": "com.xiaomi.mipicks", "label": "GetApps", "why": "Xiaomi's app store; pushes app suggestions and notifications" },
+    { "id": "com.xiaomi.glgm", "label": "Games", "why": "Game recommendations and ads" },
+    { "id": "com.miui.videoplayer", "label": "Mi Video", "why": "Video app with ads; videos play in the browser instead" },
+    { "id": "com.miui.player", "label": "Mi Music", "why": "Music app with ads; music plays in the browser instead" },
+    { "id": "com.mi.globalbrowser", "label": "Mi Browser", "why": "A second browser with ads; Chrome stays" },
+    { "id": "com.miui.android.fashiongallery", "label": "Wallpaper carousel", "why": "Downloads lock-screen wallpapers and ads over mobile data" },
+    { "id": "com.miui.hybrid", "label": "Quick apps", "why": "Runs mini-apps and promotions in the background" },
+    { "id": "com.miui.weather2", "label": "Weather", "why": "Refreshes in the background; weather is available in the browser" },
+    { "id": "com.miui.bugreport", "label": "Feedback", "why": "Sends bug reports to Xiaomi; not needed" }
+  ]
+}

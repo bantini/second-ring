@@ -1,0 +1,22 @@
+{
+  "id": "samsung",
+  "version": 1,
+  "name": "Samsung (One UI)",
+  "status": "untested",
+  "testedOn": [],
+  "brands": ["samsung"],
+  "packages": [
+    { "id": "com.samsung.android.game.gamehome", "label": "Game Launcher", "why": "Game recommendations; runs in the background" },
+    { "id": "com.samsung.android.game.gametools", "label": "Game Booster", "why": "Only used while gaming" },
+    { "id": "com.samsung.android.app.spage", "label": "Samsung Free", "why": "News and content feed next to the home screen" },
+    { "id": "com.samsung.android.bixby.agent", "label": "Bixby Voice", "why": "Voice assistant; uses memory and battery" },
+    { "id": "com.samsung.android.bixby.wakeup", "label": "Bixby wake-up", "why": "Listens for \"Hi Bixby\" in the background" },
+    { "id": "com.samsung.android.visionintelligence", "label": "Bixby Vision", "why": "Camera add-on; the camera works without it" },
+    { "id": "com.samsung.android.arzone", "label": "AR Zone", "why": "Augmented-reality effects; not needed" },
+    { "id": "com.samsung.android.aremoji", "label": "AR Emoji", "why": "Animated avatars; not needed" },
+    { "id": "com.samsung.android.app.tips", "label": "Tips", "why": "Sends tip notifications" },
+    { "id": "com.samsung.android.mateagent", "label": "Galaxy Friends", "why": "Accessory recommendations" },
+    { "id": "com.samsung.android.app.watchmanagerstub", "label": "Galaxy Wearable setup", "why": "Only for Samsung smartwatches" },
+    { "id": "com.sec.android.app.sbrowser", "label": "Samsung Internet", "why": "A second browser; Chrome stays" }
+  ]
+}

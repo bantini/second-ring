@@ -1,0 +1,17 @@
+{
+  "id": "oppo-realme",
+  "version": 1,
+  "name": "Oppo and Realme (ColorOS, realme UI)",
+  "status": "untested",
+  "testedOn": [],
+  "brands": ["oppo", "realme"],
+  "packages": [
+    { "id": "com.heytap.market", "label": "App Market", "why": "Oppo's app store; pushes app suggestions and notifications" },
+    { "id": "com.oppo.market", "label": "App Market (older)", "why": "Oppo's app store on older phones" },
+    { "id": "com.heytap.browser", "label": "Browser", "why": "A second browser with ads; Chrome stays" },
+    { "id": "com.heytap.themestore", "label": "Theme Store", "why": "Theme store with ads" },
+    { "id": "com.coloros.gamespaceui", "label": "Game Space", "why": "Only used while gaming" },
+    { "id": "com.heytap.pictorial", "label": "Lock-screen magazine", "why": "Downloads lock-screen pictures and ads over mobile data" },
+    { "id": "com.nearme.instant.platform", "label": "Instant apps", "why": "Runs mini-apps and promotions in the background" }
+  ]
+}

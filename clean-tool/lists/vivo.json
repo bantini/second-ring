@@ -1,0 +1,13 @@
+{
+  "id": "vivo",
+  "version": 1,
+  "name": "Vivo and iQOO (Funtouch OS)",
+  "status": "untested",
+  "testedOn": [],
+  "brands": ["vivo", "iqoo"],
+  "packages": [
+    { "id": "com.vivo.appstore", "label": "V-Appstore", "why": "Vivo's app store; pushes app suggestions and notifications" },
+    { "id": "com.bbk.theme", "label": "i Theme", "why": "Theme store with ads" },
+    { "id": "com.vivo.browser", "label": "vivo Browser", "why": "A second browser with ads; Chrome stays" }
+  ]
+}
